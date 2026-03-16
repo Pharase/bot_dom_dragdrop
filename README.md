@@ -74,12 +74,31 @@ The system will automatically load and match templates that share the same base 
 project/
 │
 ├─ tests/
-│   ├─ dragdrop.spec.ts
-│   └─ assets/
-│       └─ templates/
-│           ├─ sample_Q.json
-│           └─ sample_A.json
+│   ├─ assets/
+|   |   ├─ start.png
+│   |   └─ templates/
+│   |       ├─ sample_Q.png
+│   |       └─ sample_A.png
+|   |
+|   ├─ data/
+|   |   └─ usernames.txt
+|   |
+|   ├─ specs/
+|   |   └─ canvas-quiz.spec.ts
+|   |
+|   └─ utils/
+|       ├─ canvas.capture.ts
+|       ├─ canvas.detect.ts
+|       ├─ canvas.drag.ts
+|       ├─ canvas.match.ts
+|       ├─ canvas.templates.ts
+|       ├─ click.ts
+|       └─ wait.ts
+|
+├─ tmp/
 │
+├─ package-lock.json
+├─ package.json
 ├─ playwright.config.ts
 └─ README.md
 ```
